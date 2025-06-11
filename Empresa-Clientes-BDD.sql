@@ -25,3 +25,7 @@ VALUES
     ('Fernanda Costa', 'fernanda.costa@outlook.com', 'Av. Ipiranga', '202', '90010-320', 'Porto Alegre', 'RS', '2024-06-10');
     
 select * from clientes; 
+select nome, email from clientes; 
+select * from clientes where estado = "SP";
+SELECT * FROM clientes WHERE data_cadastro > '2024-04-01';
+SELECT * FROM clientes where nome LIKE 'A%' ;
